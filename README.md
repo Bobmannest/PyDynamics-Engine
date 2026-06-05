@@ -7,5 +7,7 @@ with eachother in real time.
 - As part of the demo, the mouse can be used to interact with the balls by drawing them in towards the mouse which will help to visually display
   the range of movements and collisions that balls can have
 
-TODO) In the future I might allow ball collisions to be affected by the difference in ball masses. For example, a smaller ball colliding with a more
-massive ball will result in the smaller ball getting pushed back with a higher velocity than the more massive ball.
+Build Instructions
+1) Use Python (version 3.13 and above)
+2) Download Python Pygame (version 2.6.1 and above)
+3) Run main.py
