@@ -1,4 +1,4 @@
-This is a simple physics demo that uses Python Object Oriented Programming to create physics objects objects which can freely move around and collide 
+This is a simple physics demo that uses Python object oriented programming and physics concepts to create objects which can freely move around and collide 
 with eachother in real time. 
 
 Features:
