@@ -27,7 +27,7 @@ def biased_radius_generator():
 while True:
     dt = clock.tick(30) / 1000
     if init:
-        v = Ball(pygame.Vector2(100, 250), 0, 100, 0, 7, (255, 255, 255))
+        v = Ball(pygame.Vector2(100, 250), 0, 100, 0, 7, (0, 0, 255))
         balls.append(v)
         for _ in range(ball_count):
             # Creates balls with random stats
