@@ -6,3 +6,8 @@ with eachother in real time.
 - Balls will detect collisions with other balls in real time
 - As part of the demo, the mouse can be used to interact with the balls by drawing them in towards the mouse which will help to visually display
   the range of movements and collisions that balls can have
+
+Build Instructions
+1) Use Python (version 3.13 and above)
+2) Download Python Pygame (version 2.6.1 and above)
+3) Run main.py
