@@ -27,7 +27,7 @@ def biased_radius_generator():
 while True:
     dt = clock.tick(30) / 1000
     if init:
-        v = Ball(pygame.Vector2(100, 250), 0, 100, 0, 7, (168, 50, 50))
+        v = Ball(pygame.Vector2(100, 250), 0, 100, 0, 7, (255, 255, 255))
         balls.append(v)
         for _ in range(ball_count):
             # Creates balls with random stats
@@ -36,7 +36,8 @@ while True:
             random_x_velocity = random.randint(-300, 300)
             random_y_velocity = random.randint(-300, 300)
             direction = 0
-            random_color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
+            grey_shade = random.randint(0, 255)
+            random_color = (grey_shade, grey_shade, grey_shade)
             ball = Ball(
                 pygame.Vector2(random_x, random_y),
                 random_x_velocity,
@@ -53,7 +54,7 @@ while True:
     for ball in balls:
         ball.check_collision(balls)
         ball.run(dt)
-        #Optional stats monitoring methods
-        #ball.velocity_pointer()
-        #print('X:', ball.x_velocity, 'Y:', ball.y_velocity)
+        #Statistics monitoring
+        ball.velocity_line()
+        print('X:', ball.x_velocity, 'Y:', ball.y_velocity)
     pygame.display.flip()
