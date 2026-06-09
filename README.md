@@ -1,4 +1,4 @@
-This is a physics engine that uses Python object oriented programming to simulate real-world physics concepts using objects which can freely move around and collide 
+This is a Python PyGame-based physics engine that simulates real-world physics concepts using physics objects which can freely move around and collide 
 with eachother in real time. 
 
 ## Features:
